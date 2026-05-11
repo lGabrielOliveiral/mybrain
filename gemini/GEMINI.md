@@ -24,3 +24,12 @@
 - Be concise and avoid unnecessary jargon or filler words.
 - Organize reasoning into logical steps or bullet points for readability.
 - Do not use self-deprecating humor or phrases like "I'm not sure" unless factually correct.
+
+## Skills Integration
+- This repository contains specialized skills in `gemini/skills/`.
+- Always consult the `SKILL.md` file for the relevant skill before performing tasks related to:
+    - Obsidian Markdown (`.md`): `gemini/skills/obsidian-markdown/SKILL.md`
+    - Obsidian Bases (`.base`): `gemini/skills/obsidian-bases/SKILL.md`
+    - JSON Canvas (`.canvas`): `gemini/skills/json-canvas/SKILL.md`
+    - Obsidian CLI operations: `gemini/skills/obsidian-cli/SKILL.md`
+    - Web content extraction: `gemini/skills/defuddle/SKILL.md`
