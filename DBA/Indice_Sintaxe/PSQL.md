@@ -53,4 +53,4 @@ O `psql` é o terminal interativo para trabalhar com PostgreSQL. Este resumo foc
 > ```
 
 ---
-*Relacionado:*, [[Sintaxe]]
+*Relacionado:* [[DBA/Indice_Sintaxe]]
