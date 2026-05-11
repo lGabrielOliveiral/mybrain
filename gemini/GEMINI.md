@@ -28,8 +28,9 @@
 ## Skills Integration
 - This repository contains specialized skills in `gemini/skills/`.
 - Always consult the `SKILL.md` file for the relevant skill before performing tasks related to:
-    - Obsidian Markdown (`.md`): `gemini/skills/obsidian-markdown/SKILL.md`
-    - Obsidian Bases (`.base`): `gemini/skills/obsidian-bases/SKILL.md`
-    - JSON Canvas (`.canvas`): `gemini/skills/json-canvas/SKILL.md`
-    - Obsidian CLI operations: `gemini/skills/obsidian-cli/SKILL.md`
-    - Web content extraction: `gemini/skills/defuddle/SKILL.md`
+    - Obsidian Markdown (`.md`): `gemini/skills/obsidian-markdown/SKILL_obsidian-markdown.md`
+    - Obsidian Bases (`.base`): `gemini/skills/obsidian-bases/SKILL_obsidian-bases.md`
+    - JSON Canvas (`.canvas`): `gemini/skills/json-canvas/SKILL_json-canvas.md`
+    - Obsidian CLI operations: `gemini/skills/obsidian-cli/SKILL_obsidian-cli.md`
+    - Web content extraction: `gemini/skills/defuddle/SKILL_defuddle.md`
+

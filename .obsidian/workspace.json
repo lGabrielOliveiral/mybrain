@@ -11,17 +11,10 @@
             "id": "47a4a1897d16656f",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Sem título.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Sem título"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
             }
           }
         ]
@@ -185,9 +178,16 @@
   },
   "active": "47a4a1897d16656f",
   "lastOpenFiles": [
+    "gemini/skills/defuddle/SKILL_defuddle.md",
+    "gemini/skills/obsidian-cli/SKILL_obsidian-cli.md",
+    "gemini/skills/obsidian-bases/SKILL_obsidian-bases.md",
+    "gemini/skills/json-canvas/SKILL_json-canvas.md",
+    "gemini/skills/obsidian-markdown/SKILL_obsidian-markdown.md",
+    "gemini/skills/obsidian-markdown/SKILL.md",
+    "gemini/Índice de Skills.md",
+    "Sem título.canvas",
     "gemini/skills/json-canvas/references/EXAMPLES.md",
     "gemini/skills/json-canvas/SKILL.md",
-    "Sem título.canvas",
     "gemini/skills/obsidian-cli/SKILL.md",
     "DBA/DBA.md",
     "DBA/Arquitetura do Banco de Dados.md",
@@ -202,7 +202,6 @@
     "gemini/skills/obsidian-markdown/references/EMBEDS.md",
     "gemini/skills/obsidian-markdown/references/CALLOUTS.md",
     "gemini/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
-    "gemini/skills/obsidian-markdown/SKILL.md",
     "gemini/skills/obsidian-markdown/references",
     "gemini/skills/json-canvas/references",
     "gemini/skills/obsidian-bases/references",

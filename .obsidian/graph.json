@@ -6,17 +6,39 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
-  "collapse-display": false,
+  "colorGroups": [
+    {
+      "query": "path:gemini",
+      "color": {
+        "a": 1,
+        "rgb": 11032055
+      }
+    },
+    {
+      "query": "path:.obsidian",
+      "color": {
+        "a": 1,
+        "rgb": 2278750
+      }
+    },
+    {
+      "query": "path:DBA OR tag:#dba",
+      "color": {
+        "a": 1,
+        "rgb": 3900150
+      }
+    }
+  ],
+  "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "textFadeMultiplier": -1.4,
+  "nodeSizeMultiplier": 0.838565488565489,
+  "lineSizeMultiplier": 1.18492723492724,
   "collapse-forces": false,
-  "centerStrength": 0.383575883575884,
-  "repelStrength": 10,
+  "centerStrength": 0.12993762993763,
+  "repelStrength": 5.50935550935551,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.7132754626224407,
+  "linkDistance": 126,
+  "scale": 0.5087618855792573,
   "close": false
 }
