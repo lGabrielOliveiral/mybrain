@@ -22,10 +22,17 @@
       }
     },
     {
-      "query": "path:DBA OR tag:#dba",
+      "query": "path:DBA tag:#revisado",
       "color": {
         "a": 1,
         "rgb": 3900150
+      }
+    },
+    {
+      "query": "path:DBA -tag:#revisado",
+      "color": {
+        "a": 1,
+        "rgb": 15381256
       }
     }
   ],
@@ -35,10 +42,10 @@
   "nodeSizeMultiplier": 0.838565488565489,
   "lineSizeMultiplier": 1.18492723492724,
   "collapse-forces": false,
-  "centerStrength": 0.12993762993763,
-  "repelStrength": 5.50935550935551,
+  "centerStrength": 0.487525987525988,
+  "repelStrength": 14.7401247401247,
   "linkStrength": 1,
-  "linkDistance": 126,
-  "scale": 0.5087618855792573,
+  "linkDistance": 30,
+  "scale": 0.713275462622439,
   "close": false
 }

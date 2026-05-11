@@ -3,6 +3,7 @@ tags:
   - dba
   - index
   - study
+  - revisado
 ---
 
 # 🗄️ Índice de Resumos DBA

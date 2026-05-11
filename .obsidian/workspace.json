@@ -178,6 +178,14 @@
   },
   "active": "47a4a1897d16656f",
   "lastOpenFiles": [
+    "DBA/SQL Sintaxe.md",
+    "DBA/SQL DDL-DML.md",
+    "DBA/Índice de Sintaxe.md",
+    "DBA/Ferramentas PG Binaries.md",
+    "DBA/Comandos psql.md",
+    "DBA/DBA.md",
+    "DBA/Índice DBA.md",
+    "DBA/Arquitetura do Banco de Dados.md",
     "gemini/skills/defuddle/SKILL_defuddle.md",
     "gemini/skills/obsidian-cli/SKILL_obsidian-cli.md",
     "gemini/skills/obsidian-bases/SKILL_obsidian-bases.md",
@@ -189,12 +197,8 @@
     "gemini/skills/json-canvas/references/EXAMPLES.md",
     "gemini/skills/json-canvas/SKILL.md",
     "gemini/skills/obsidian-cli/SKILL.md",
-    "DBA/DBA.md",
-    "DBA/Arquitetura do Banco de Dados.md",
     "gemini/skills/obsidian-bases/SKILL.md",
     "Bem-vindo.md",
-    "DBA/SQL Sintaxe.md",
-    "DBA/Índice DBA.md",
     "README.md",
     "DBA",
     "readme_do_repo",
@@ -210,10 +214,6 @@
     "gemini/skills/obsidian-cli",
     "gemini/skills/obsidian-bases",
     "gemini/skills/json-canvas",
-    "gemini/skills/defuddle",
-    "gemini/README.md",
-    "gemini/GEMINI.md",
-    "CLAUDE.md",
-    "claude.md"
+    "gemini/skills/defuddle"
   ]
 }
