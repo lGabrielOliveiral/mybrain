@@ -31,7 +31,7 @@ Este é o ponto de partida para os estudos e consultas de Administração de Ban
 - [[DBA/Memory Management|SGA, PGA e Swap]]
 
 ## 📝 Sintaxe e SQL Avançado
-- [[Indice_Sintaxe|Cheat Sheet de Comandos DDL/DML]]
+- [[Administracao_Banco|Cheat Sheet de Comandos DDL/DML]]
 - [[DBA/PL-SQL|Procedures, Functions e Triggers]]
 - [[DBA/Views e Materialized Views|Performance em Consultas]]
 

@@ -14,12 +14,12 @@ Estes comandos são executados diretamente no prompt de comando (shell) do siste
 
 Ferramentas para criar cópias de segurança e restaurar bancos de dados ou clusters inteiros.
 
-| Ferramenta | Descrição | Nota |
-| :--- | :--- | :--- |
-| `pg_dump` | Gera backup lógico de um único banco de dados. | [[pg_dump]] |
-| `pg_dumpall` | Gera backup completo do cluster (roles, tablespaces e bancos). | [[pg_dumpall]] |
-| `pg_restore` | Restaura backups gerados em formato custom ou tar pelo `pg_dump`. | [[pg_restore]] |
-| `pg_basebackup` | Realiza backup físico (base backup) para replicação ou PITR. | [[pg_basebackup]] |
+| Ferramenta      | Descrição                                                         | Nota              |
+| :-------------- | :---------------------------------------------------------------- | :---------------- |
+| `pg_dump`       | Gera backup lógico de um único banco de dados.                    | [[pg_dump]]       |
+| `pg_dumpall`    | Gera backup completo do cluster (roles, tablespaces e bancos).    | [[pg_dumpall]]    |
+| `pg_restore`    | Restaura backups gerados em formato custom ou tar pelo `pg_dump`. | [[pg_restore]]    |
+| `pg_basebackup` | Realiza backup físico (base backup) para replicação ou PITR.      | [[pg_basebackup]] |
 
 ## Manutenção e Administração
 
@@ -72,4 +72,4 @@ Ferramentas para gerenciar o serviço e o terminal interativo.
 > Sempre teste o `pg_dump` com o parâmetro `--no-password` se estiver usando scripts de automação (configurando o arquivo `.pgpass`).
 
 ---
-*Relacionado:* [[DBA/Indice_Sintaxe]]
+*Relacionado:* [[DBA/Administracao_Banco]]

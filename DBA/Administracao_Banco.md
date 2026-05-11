@@ -7,7 +7,7 @@ tags:
   - revisado
 ---
 
-# ⌨️ Índice de Sintaxe e Ferramentas DBA
+# ⌨️ Administração de Banco e Ferramentas DBA
 
 Este mapa centraliza toda a sintaxe necessária para operar o banco de dados, desde comandos SQL puros até ferramentas de terminal e utilitários do sistema.
 
@@ -15,23 +15,23 @@ Este mapa centraliza toda a sintaxe necessária para operar o banco de dados, de
 
 | Ferramenta / Linguagem | Descrição | Link |
 | :--- | :--- | :--- |
-| **Linguagem SQL** | Sintaxe pura de DDL (Data Definition), DML (Data Manipulation) e consultas avançadas. | [[DBA/Indice_Sintaxe/SQL DDL-DML\|SQL Puro (DDL/DML)]] |
-| **Terminal psql** | Meta-comandos (`\`) exclusivos do cliente interativo para navegação e inspeção rápida. | [[DBA/Indice_Sintaxe/PSQL\|Meta-comandos psql]] |
-| **Binários PG** | Ferramentas de sistema do Postgres instaladas no SO para manutenção e backup. | [[DBA/Indice_Sintaxe/Ferramentas PG Binaries\|Utilitários de Terminal (PG Tools)]] |
+| **Linguagem SQL** | Sintaxe pura de DDL (Data Definition), DML (Data Manipulation) e consultas avançadas. | [[DBA/Administracao_Banco/SQL DDL-DML\|SQL Puro (DDL/DML)]] |
+| **Terminal psql** | Meta-comandos (`\`) exclusivos do cliente interativo para navegação e inspeção rápida. | [[DBA/Administracao_Banco/PSQL\|Meta-comandos psql]] |
+| **Binários PG** | Ferramentas de sistema do Postgres instaladas no SO para manutenção e backup. | [[DBA/Administracao_Banco/Ferramentas PG Binaries\|Utilitários de Terminal (PG Tools)]] |
 
 ---
 
 ## 🛠️ Detalhes dos Nós
 
-### [[DBA/Indice_Sintaxe/SQL DDL-DML|1. SQL Puro]]
+### [[DBA/Administracao_Banco/SQL DDL-DML|1. SQL Puro]]
 Focado na linguagem padrão SQL. Ideal para quando você está dentro de qualquer IDE ou ferramenta de query.
 - **Destaques**: `CREATE`, `UPDATE`, `JOINs`, `WINDOW FUNCTIONS`.
 
-### [[DBA/Indice_Sintaxe/PSQL|2. Meta-comandos psql]]
+### [[DBA/Administracao_Banco/PSQL|2. Meta-comandos psql]]
 Comandos que só funcionam dentro do terminal `psql`. Facilitam a vida do DBA sem precisar digitar queries longas em tabelas de catálogo.
 - **Destaques**: `\dt` (tabelas), `\d+` (detalhes), `\x` (modo expandido).
 
-### [[DBA/Indice_Sintaxe/Ferramentas PG Binaries|3. PG Tools (Binários do SO)]]
+### [[DBA/Administracao_Banco/Ferramentas PG Binaries|3. PG Tools (Binários do SO)]]
 Comandos executados diretamente no shell do Windows/Linux (fora do banco). Essenciais para automação e manutenção pesada.
 - **Destaques**: `pg_dump` (backup), `vacuumdb` (limpeza), `pg_ctl` (controle do serviço).
 
