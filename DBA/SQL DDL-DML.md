@@ -44,4 +44,4 @@ SELECT tablespace_name, used_space, free_space FROM dba_tablespace_usage_metrics
 > Adicione aqui comandos específicos do seu banco (PostgreSQL, Oracle, SQL Server, etc).
 
 ---
-*Relacionado:* [[DBA/SQL Sintaxe]]
+*Relacionado:* [[Sintaxe]]

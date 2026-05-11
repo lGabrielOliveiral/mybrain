@@ -11,32 +11,32 @@
       "query": "path:gemini",
       "color": {
         "a": 1,
-        "rgb": 11032055
+        "rgb": 9211880
       }
     },
     {
-      "query": "path:.obsidian",
+      "query": "tag:#favorito  ",
       "color": {
         "a": 1,
-        "rgb": 2278750
+        "rgb": 16117268
       }
     },
     {
       "query": "path:DBA tag:#revisado",
       "color": {
         "a": 1,
-        "rgb": 3900150
+        "rgb": 1376059
       }
     },
     {
       "query": "path:DBA -tag:#revisado",
       "color": {
         "a": 1,
-        "rgb": 15381256
+        "rgb": 20689
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": -1.4,
   "nodeSizeMultiplier": 0.838565488565489,
@@ -46,6 +46,6 @@
   "repelStrength": 14.7401247401247,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.713275462622439,
+  "scale": 0.5087618855792536,
   "close": false
 }

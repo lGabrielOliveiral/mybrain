@@ -4,6 +4,7 @@ tags:
   - postgres
   - psql
   - cheat-sheet
+  - favorito
 ---
 
 # 🐘 Comandos psql (PostgreSQL)
@@ -52,4 +53,4 @@ O `psql` é o terminal interativo para trabalhar com PostgreSQL. Este resumo foc
 > ```
 
 ---
-*Relacionado:*, [[DBA/SQL Sintaxe]]
+*Relacionado:*, [[Sintaxe]]

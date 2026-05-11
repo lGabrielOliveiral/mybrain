@@ -6,36 +6,44 @@ tags:
   - tools
 ---
 
-# 🛠️ Utilitários de Terminal (PG Binaries)
+# Utilitarios de Terminal (PG Binaries)
 
-Estes comandos são executados diretamente no prompt de comando (shell) do sistema operacional, e não dentro do SQL.
+Estes comandos sao executados diretamente no prompt de comando (shell) do sistema operacional, e nao dentro do SQL. Cada ferramenta possui uma nota dedicada com detalhes de uso.
 
-## 📦 Backup e Restauração
+## Backup e Restauracao
 
-| Comando | Função | Exemplo de Uso |
+Ferramentas para criar copias de seguranca e restaurar bancos de dados ou clusters inteiros.
+
+| Ferramenta | Descricao | Nota |
 | :--- | :--- | :--- |
-| `pg_dump` | Backup de um único banco de dados. | `pg_dump -U user -d dbname > backup.sql` |
-| `pg_dumpall` | Backup de todo o cluster (todos os bancos e usuários). | `pg_dumpall -U postgres > full_backup.sql` |
-| `pg_restore` | Restaura backups feitos em formato custom/tar. | `pg_restore -d dbname backup.dump` |
+| `pg_dump` | Gera backup logico de um unico banco de dados em diversos formatos (plain, custom, directory, tar). | [[pg_dump]] |
+| `pg_dumpall` | Gera backup completo do cluster, incluindo todos os bancos, roles e tablespaces. | [[pg_dumpall]] |
+| `pg_restore` | Restaura backups gerados em formato custom ou tar pelo `pg_dump`. | [[pg_restore]] |
 
-## 🧹 Manutenção e Administração
+## Manutencao e Administracao
 
-| Comando | Função | Exemplo de Uso |
+Ferramentas para manter a saude do banco: limpeza de dead tuples, reconstrucao de indices e gestao de bancos.
+
+| Ferramenta | Descricao | Nota |
 | :--- | :--- | :--- |
-| `vacuumdb` | Executa limpeza (VACUUM) e análise de estatísticas. | `vacuumdb -d dbname --analyze` |
-| `reindexdb` | Recria todos os índices de um banco ou tabela. | `reindexdb -d dbname -t my_table` |
-| `createdb` / `dropdb` | Cria ou remove bancos de dados rapidamente. | `createdb -U postgres new_db` |
+| `vacuumdb` | Executa VACUUM e ANALYZE via shell, sem precisar abrir o `psql`. | [[vacuumdb]] |
+| `reindexdb` | Reconstroi indices corrompidos ou inchados de um banco ou tabela especifica. | [[reindexdb]] |
+| `createdb` | Cria um novo banco de dados a partir do shell. | [[createdb]] |
+| `dropdb` | Remove um banco de dados a partir do shell. | [[dropdb]] |
 
-## ⚙️ Controle do Servidor
+## Controle do Servidor
 
-| Comando | Função | Exemplo de Uso |
+Ferramentas para iniciar, parar, reiniciar o servico e conectar ao terminal interativo.
+
+| Ferramenta | Descricao | Nota |
 | :--- | :--- | :--- |
-| `pg_ctl` | Inicia, para ou reinicia o serviço do Postgres. | `pg_ctl restart -D "C:\caminho\dados"` |
-| `psql` | Inicia o terminal interativo (cliente). | `psql -U postgres -d postgres` |
+| `pg_ctl` | Controla o ciclo de vida do servidor PostgreSQL (start, stop, restart, reload, status). | [[pg_ctl]] |
+| `psql` | Cliente de terminal interativo para executar queries e meta-comandos. | [[PSQL]] |
 
 ---
-> [!important] Dica de Segurança
-> Sempre teste o `pg_dump` com o parâmetro `--no-password` se estiver usando scripts de automação (configurando o arquivo `.pgpass`).
+
+> [!important] Dica de Seguranca
+> Sempre teste o `pg_dump` com o parametro `--no-password` se estiver usando scripts de automacao (configurando o arquivo `.pgpass`).
 
 ---
-*Relacionado:* [[DBA/SQL Sintaxe]]
+*Relacionado:* [[Sintaxe]]

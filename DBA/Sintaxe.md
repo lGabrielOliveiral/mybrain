@@ -4,6 +4,7 @@ tags:
   - syntax
   - index
   - postgres
+  - revisado
 ---
 
 # ⌨️ Índice de Sintaxe e Ferramentas DBA
@@ -15,7 +16,7 @@ Este mapa centraliza toda a sintaxe necessária para operar o banco de dados, de
 | Ferramenta / Linguagem | Descrição | Link |
 | :--- | :--- | :--- |
 | **Linguagem SQL** | Sintaxe pura de DDL (Data Definition), DML (Data Manipulation) e consultas avançadas. | [[DBA/SQL DDL-DML\|SQL Puro (DDL/DML)]] |
-| **Terminal psql** | Meta-comandos (`\`) exclusivos do cliente interativo para navegação e inspeção rápida. | [[DBA/Comandos psql\|Meta-comandos psql]] |
+| **Terminal psql** | Meta-comandos (`\`) exclusivos do cliente interativo para navegação e inspeção rápida. | [[PSQL\|Meta-comandos psql]] |
 | **Binários PG** | Ferramentas de sistema do Postgres instaladas no SO para manutenção e backup. | [[DBA/Ferramentas PG Binaries\|Utilitários de Terminal (PG Tools)]] |
 
 ---
@@ -26,7 +27,7 @@ Este mapa centraliza toda a sintaxe necessária para operar o banco de dados, de
 Focado na linguagem padrão SQL. Ideal para quando você está dentro de qualquer IDE ou ferramenta de query.
 - **Destaques**: `CREATE`, `UPDATE`, `JOINs`, `WINDOW FUNCTIONS`.
 
-### [[DBA/Comandos psql|2. Meta-comandos psql]]
+### [[PSQL|2. Meta-comandos psql]]
 Comandos que só funcionam dentro do terminal `psql`. Facilitam a vida do DBA sem precisar digitar queries longas em tabelas de catálogo.
 - **Destaques**: `\dt` (tabelas), `\d+` (detalhes), `\x` (modo expandido).
 
@@ -35,5 +36,4 @@ Comandos executados diretamente no shell do Windows/Linux (fora do banco). Essen
 - **Destaques**: `pg_dump` (backup), `vacuumdb` (limpeza), `pg_ctl` (controle do serviço).
 
 ---
-> [!tip] Status
-> Use a tag `#revisado` para marcar os tópicos que você já domina!
+
