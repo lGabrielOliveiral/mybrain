@@ -33,4 +33,4 @@
     - JSON Canvas (`.canvas`): `gemini/skills/json-canvas/SKILL_json-canvas.md`
     - Obsidian CLI operations: `gemini/skills/obsidian-cli/SKILL_obsidian-cli.md`
     - Web content extraction: `gemini/skills/defuddle/SKILL_defuddle.md`
-
+
