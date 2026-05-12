@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DBA/Administracao_Banco/pg_config.md",
+                "file": "IA/Scripts de IA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pg_config"
+              "title": "Scripts de IA"
             }
           }
         ]
@@ -182,6 +182,12 @@
   },
   "active": "47a4a1897d16656f",
   "lastOpenFiles": [
+    "IA/Templates/modelo pptx powertuning.md",
+    "IA/Templates",
+    "IA/Scripts de IA.md",
+    "IA",
+    "DBA/DBA.md",
+    "DBA/Administracao_Banco/pg_config.md",
     "DBA/Administracao_Banco/Ferramentas PG Binaries.md",
     "DBA/Administracao_Banco/pg_dropcluster.md",
     "DBA/Administracao_Banco/pg_createcluster.md",
@@ -191,7 +197,6 @@
     "DBA/Administracao_Banco/pg_upgrade.md",
     "DBA/Administracao_Banco/pg_test_timing.md",
     "DBA/Administracao_Banco/PSQL.md",
-    "DBA/Administracao_Banco/pg_config.md",
     "DBA/Administracao_Banco/postgres.md",
     "DBA/Administracao_Banco/oid2name.md",
     "DBA/Administracao_Banco/pg_standby.md",
@@ -205,9 +210,6 @@
     "DBA/Administracao_Banco/reindexdb.md",
     "DBA/Administracao_Banco/SQL DDL-DML.md",
     "DBA/Administracao_Banco/pg_test_fsync.md",
-    "DBA/Administracao_Banco/pg_restore.md",
-    "DBA/Administracao_Banco/pg_isready.md",
-    "DBA/Administracao_Banco/pg_resetwal.md",
     "DBA/Administracao_Banco",
     "DBA/Indice_Sintaxe",
     "Sem título.canvas",
@@ -216,8 +218,6 @@
     "gemini/skills/obsidian-markdown/references",
     "gemini/skills/json-canvas/references",
     "gemini/skills/obsidian-bases/references",
-    "gemini/skills/obsidian-markdown",
-    "gemini/skills/obsidian-cli",
-    "gemini/skills/obsidian-bases"
+    "gemini/skills/obsidian-markdown"
   ]
 }
