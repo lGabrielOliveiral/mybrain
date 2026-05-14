@@ -3,6 +3,7 @@ tags:
   - ia
   - index
   - revisado
+  - favorito
 ---
 
 # Scripts de IA

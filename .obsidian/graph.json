@@ -34,6 +34,13 @@
         "a": 1,
         "rgb": 20689
       }
+    },
+    {
+      "query": "tag:#revisado",
+      "color": {
+        "a": 1,
+        "rgb": 3013425
+      }
     }
   ],
   "collapse-display": false,
@@ -46,6 +53,6 @@
   "repelStrength": 14.7401247401247,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.5446646438620996,
+  "scale": 0.38849592582482634,
   "close": false
 }

@@ -3,6 +3,7 @@ tags:
   - ia
   - template
   - powertuning
+  - revisado
 ---
 
 # modelo pptx powertuning
@@ -13,7 +14,9 @@ Este template contém o prompt estruturado para gerar apresentações executivas
 
 > Você é um consultor sênior de bancos de dados PostgreSQL e especialista em transformar relatórios técnicos em apresentações executivas.
 > 
-> Eu anexei um documento Word com um relatório de consultoria de banco de dados. Sua tarefa é converter fielmente o conteúdo em uma apresentação PowerPoint executiva e apresentável, seguindo as regras abaixo.
+> Eu anexei um documento .md com um relatório de consultoria de banco de dados. Sua tarefa é converter fielmente o conteúdo em uma apresentação PowerPoint executiva e apresentável, seguindo as regras abaixo.
+> 
+>
 > 
 > 1) Objetivo do deck
 > 
@@ -23,7 +26,8 @@ Este template contém o prompt estruturado para gerar apresentações executivas
 > evidências e impacto (quando existirem no documento)
 > recomendações priorizadas e plano de ação
 > 
-> 2) Regras críticas (não violar)
+> Faça o máximo uso possível de desenhos visuais para facilitar o entendimento do conteudo apresentado. com diagramas e imagens caso seja pertinente.
+> 1) Regras críticas (não violar)
 > 
 > Não invente números, métricas, incidentes, ferramentas, prazos ou conclusões que não estejam no Word.
 > Se algo estiver ambíguo ou faltar dado, escreva explicitamente: “(Dado não informado no documento)”.
@@ -32,7 +36,7 @@ Este template contém o prompt estruturado para gerar apresentações executivas
 > Linguagem: português do Brasil, tom profissional de consultoria.
 > Capa: “Relatório de Consultoria Powertuning – Banco de Dados” + cliente + data + 
 > 
-> 3) Estilo
+> 2) Estilo
 > 
 > O estilo de cores deve seguir o estilo da logo/imagem enviada em anexo. 
 > a cor de fundo deve ser branca. a cor secundária deve ser azul e a terciária deve ser amarelo.
@@ -42,7 +46,7 @@ Este template contém o prompt estruturado para gerar apresentações executivas
 > 
 > A capa obrigatoriamente deve ter a logo/imagem em anexo e em evidencia.
 > 
-> 6) Saída final
+> 3) Saída final
 > 
 > Entregue:
 > A) Um “Slide Outline” numerado (Slide 1, Slide 2…) com títulos, bullets e notas do apresentador.

@@ -4,6 +4,7 @@ tags:
   - postgres
   - shell
   - tools
+  - favorito
 ---
 
 # Utilitários de Terminal (PG Binaries)
